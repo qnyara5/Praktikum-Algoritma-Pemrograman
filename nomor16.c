@@ -4,36 +4,36 @@
 /* Nama         : Tiara Fitra Ramadhani Siregar*/
 /* NIM          : 24060121120008*/
 
-/*#include <stdio.h>
+#include <stdio.h>
 
-/*int main(){*/
+int main(){*/
     /* Kamus */
-    /*int ja;
+    int ja;
     int gaji;
-    int tunj;*/
+    int tunj;
 
     /* Algoritma */
-    /*printf("========== Menghitung Tunjangan Anak ==========\n");
-    printf("===============================================\n");*/
+    printf("========== Menghitung Tunjangan Anak ==========\n");
+    printf("===============================================\n");
 
     /* Input */
-    /*printf("\nMasukan gaji pokok : ");
+    printf("\nMasukan gaji pokok : ");
     scanf("\n %d", &gaji);
     printf("\nMasukan jumlah anak : ");
-    scanf("\n %d", &ja);*/
+    scanf("\n %d", &ja);
 
     /* Proses */
-    /*if (0 <= ja && ja <= 3){
+    if (0 <= ja && ja <= 3){
         tunj = ja * (0.1 * gaji);
     }else {
         tunj = 3 * (0.1 * gaji);
-    }*/
+    }
 
     /*output*/
-    /*printf("\n===============================================\n");
+    printf("\n===============================================\n");
     printf("\nTunjangan Anak Rp. %d \n", tunj);
     printf("\n===============================================\n");
 
     return 0;
-}*/
+}
 
