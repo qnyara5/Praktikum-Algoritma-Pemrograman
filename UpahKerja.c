@@ -4,27 +4,27 @@
 /* Nama         : Tiara Fitra Ramadhani Siregar*/
 /* NIM          : 24060121120008*/
 
-#include <stdio.h>
+//#include <stdio.h>
 
-int main(){
+/*int main(){*/
     /* Kamus */
-    int gol;
+    /*int gol;
     int upah;
     int jam;
-    int utotal;
+    int utotal;*/
 
     /* Algoritma */
-    printf("========== Menghitung Upah Kerja ============\n");
-    printf("===============================================\n");
+    /*printf("========== Menghitung Upah Kerja ============\n");
+    printf("===============================================\n");*/
 
-    /* Input */
-    printf("\nMasukan golongan pekerja : ");
+        /* Input */
+    /*printf("\nMasukan golongan pekerja (pilih 1/ 2/ 3/ 4) : ");
     scanf("\n %d", &gol);
     printf("\nMasukan jam kerja per minggu : ");
-    scanf("\n %d", &jam);
+    scanf("\n %d", &jam);*/
 
-    /* Proses */
-    switch (gol){
+        /* Proses */
+    /*switch (gol){
         case 1 : upah = 1000;
         break;
         case 2 : upah = 1500;
@@ -38,19 +38,19 @@ int main(){
             printf("\nGolongan tidak tersedia\n");
             printf("\n===============================================\n");
         break;
-        }
+        }*/
 
-    if (0 < jam && jam < 40){
+    /*if (0 < jam && jam < 40){
         utotal = jam * upah;
     }else {
         utotal = upah * 40 + ((jam - 40) * 1.5 * upah);
-        }
+        }*/
 
-    /*output*/
-    printf("\n===============================================\n");
+        /*output*/
+    /*printf("\n===============================================\n");
     printf("\nUpah kerja per minggu Rp. %d \n", utotal);
     printf("\n===============================================\n");
 
     return 0;
 }
-
+*/
