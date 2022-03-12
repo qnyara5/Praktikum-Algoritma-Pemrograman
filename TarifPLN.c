@@ -17,12 +17,13 @@ int main(){
     printf("============= Menghitung Tarif PLN ============\n");
     printf("===============================================\n");
 
-    /* Input */
-    printf("\nMasukan golongan : ");
+        /* Input */
+    printf("\nMasukan golongan (pilih 1 atau 2) : ");
     scanf("\n %d", &goltrf);
     printf("\nMasukan pemakaian daya listrik (kWH): ");
     scanf("\n %d", &daya);
 
+        /* Proses */
     switch (goltrf){
         case 1 : p = 1000;
         break;
@@ -42,6 +43,7 @@ int main(){
          trf = p * daya * 1.1;
         }
 
+        /* Output */
     printf("\n===============================================\n");
     printf("\nTarif PLN Rp. %d \n", trf);
     printf("\n===============================================\n");
